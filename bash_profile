@@ -161,6 +161,10 @@ function extract () {
   if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
   fi
+  # Git Branch Completion
+  if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+  fi
 
   # RVM
   # Mandatory loading of RVM into the shell
