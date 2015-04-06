@@ -1,0 +1,8 @@
+[user]
+	email = cdlehneis@gmail.com
+	name = Chris Lehneis
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = matching
