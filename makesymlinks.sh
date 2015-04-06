@@ -56,4 +56,5 @@ else
 fi
 }
 
+# Uncomment this if you would like an zsh shell
 # install_zsh
